@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wi-Fi Security Quiz | Rootphish Squad</title>
+    <style>
+        :root {
+            --dark-blue: #0F172A;
+            --purple: #7C3AED;
+            --cyan: #06B6D4;
+            --white: #F8FAFC;
+            --safe: #22C55E;
+            --danger: #EF4444;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: var(--dark-blue);
+            color: var(--white);
+            font-family: 'Segoe UI', sans-serif;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        .quiz-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+            padding: 40px;
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+        h1 { color: var(--cyan); font-size: 32px; margin-bottom: 8px; text-align: center; }
+        .subtitle { text-align: center; opacity: 0.6; margin-bottom: 30px; font-size: 15px; }
+        .question {
+            margin-bottom: 24px;
+            padding: 20px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 12px;
+            border-left: 4px solid var(--purple);
+        }
+        .question h3 { color: var(--cyan); margin-bottom: 12px; font-size: 17px; }
+        .options { display: flex; flex-direction: column; gap: 8px; }
+        .options label {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 14px;
+            background: rgba(255,255,255,0.04);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: 2px solid transparent;
+        }
+        .options label:hover { background: rgba(255,255,255,0.08); }
+        .options input[type="radio"] { accent-color: var(--cyan); width: 18px; height: 18px; cursor: pointer; }
+        .options label.correct { border-color: var(--safe); background: rgba(34,197,94,0.1); }
+        .options label.wrong { border-color: var(--danger); background: rgba(239,68,68,0.1); }
+        .options label.disabled { opacity: 0.5; cursor: not-allowed; }
+        .explanation { margin-top: 10px; padding: 12px 16px; border-radius: 8px; font-size: 14px; display: none; }
+        .explanation.show { display: block; }
+        .explanation.correct { background: rgba(34,197,94,0.1); color: var(--safe); }
+        .explanation.wrong { background: rgba(239,68,68,0.1); color: var(--danger); }
+        .btn {
+            background: var(--purple);
+            color: white;
+            border: none;
+            padding: 14px 40px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: block;
+            margin: 20px auto;
+        }
+        .btn:hover { background: var(--cyan); transform: scale(1.02); }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+        .score { text-align: center; padding: 20px; margin-top: 20px; border-radius: 12px; background: rgba(255,255,255,0.04); }
+        .score h2 { font-size: 28px; }
+        .score .percentage { font-size: 48px; font-weight: 700; color: var(--cyan); }
+        .back-link { display: block; text-align: center; margin-top: 20px; color: var(--cyan); text-decoration: none; }
+        .back-link:hover { text-decoration: underline; }
+        .progress { text-align: center; margin-bottom: 20px; font-size: 14px; opacity: 0.7; }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>🧠 Wi-Fi Security Quiz</h1>
+        <p class="subtitle">Test your knowledge — 10 Questions</p>
+        <div class="progress" id="progress">Questions: 10 | Answered: 0</div>
+        <div id="quizForm"></div>
+        <button class="btn" id="submitBtn" onclick="submitQuiz()">Submit Answers</button>
+        <div id="scoreDisplay"></div>
+        <a href="/" class="back-link">← Back to Dashboard</a>
+    </div>
+    
+    <script>
+        const questions = [
+            {
+                question: 'What is an Evil Twin attack?',
+                options: ['A physical attack on a router', 'A fake Wi-Fi network pretending to be legitimate', 'A type of virus that duplicates files', 'Two identical routers in the same location'],
+                correct: 1,
+                explanation: 'An Evil Twin is a fake Wi-Fi network that mimics a legitimate one to steal credentials.'
+            },
+            {
+                question: 'Which encryption is the most secure for Wi-Fi?',
+                options: ['WEP', 'WPA2', 'WPA3', 'Open Network'],
+                correct: 2,
+                explanation: 'WPA3 is the latest and most secure Wi-Fi encryption standard.'
+            },
+            {
+                question: 'What should you do on public Wi-Fi?',
+                options: ['Use a VPN', 'Enter banking details', 'Keep Wi-Fi auto-connect on', 'Share passwords with strangers'],
+                correct: 0,
+                explanation: 'VPN encrypts your traffic, protecting you from snooping on public networks.'
+            },
+            {
+                question: 'What is a rogue access point?',
+                options: ['A router with a weak password', 'An unauthorized Wi-Fi device on a network', 'A new type of Wi-Fi standard', 'A router that only works at night'],
+                correct: 1,
+                explanation: 'A rogue access point is an unauthorized device connected to a network, often for malicious purposes.'
+            },
+            {
+                question: 'Which of these is a suspicious SSID?',
+                options: ['Starbucks_WiFi', 'Free_Public_Net', 'Office_5G', 'All of the above'],
+                correct: 3,
+                explanation: 'Any SSID that is common or generic can be suspicious, especially "Free_Public_Net".'
+            },
+            {
+                question: 'What does HTTPS mean in a website URL?',
+                options: ['The website is fast', 'The connection is encrypted and secure', 'The website is popular', 'The website is free'],
+                correct: 1,
+                explanation: 'HTTPS means the website uses SSL/TLS encryption, making your connection secure.'
+            },
+            {
+                question: 'What is the minimum recommended password length?',
+                options: ['4 characters', '6 characters', '8 characters', '12 characters'],
+                correct: 3,
+                explanation: 'Security experts recommend at least 12 characters for a strong password.'
+            },
+            {
+                question: 'What is a Man-in-the-Middle attack?',
+                options: ['A physical attack on a person', 'An attacker intercepting communication between two parties', 'A type of computer virus', 'A social engineering attack'],
+                correct: 1,
+                explanation: 'In a MITM attack, the attacker secretly intercepts and relays messages between two parties.'
+            },
+            {
+                question: 'Why should you avoid free VPNs?',
+                options: ['They are too slow', 'They may sell your data', 'They have limited servers', 'All of the above'],
+                correct: 3,
+                explanation: 'Free VPNs often sell user data, have slow speeds, and limited servers. Always use reputable paid VPNs.'
+            },
+            {
+                question: 'What should you do if you suspect a Wi-Fi network is fake?',
+                options: ['Connect to it anyway', 'Report it to staff and disconnect', 'Share it with friends', 'Ignore it and continue'],
+                correct: 1,
+                explanation: 'If you suspect a network is fake, disconnect immediately and report it to the staff.'
+            }
+        ];
+        
+        let quizSubmitted = false;
+        let answeredCount = 0;
+        
+        function renderQuiz() {
+            const container = document.getElementById('quizForm');
+            if (!container) return;
+            container.innerHTML = questions.map((q, i) => `
+                <div class="question" id="q${i}">
+                    <h3>${i+1}. ${q.question}</h3>
+                    <div class="options" id="options${i}">
+                        ${q.options.map((opt, j) => `
+                            <label onclick="selectOption(${i}, ${j})" id="label${i}_${j}">
+                                <input type="radio" name="q${i}" value="${j}">
+                                ${opt}
+                            </label>
+                        `).join('')}
+                    </div>
+                    <div class="explanation" id="explanation${i}"></div>
+                </div>
+            `).join('');
+            updateProgress();
+        }
+        
+        function updateProgress() {
+            const progress = document.getElementById('progress');
+            if (progress) {
+                progress.textContent = `Questions: ${questions.length} | Answered: ${answeredCount}`;
+            }
+        }
+        
+        function selectOption(qIndex, optIndex) {
+            if (quizSubmitted) return;
+            const labels = document.querySelectorAll(`#options${qIndex} label`);
+            const wasSelected = document.querySelector(`input[name="q${qIndex}"]:checked`);
+            labels.forEach((label, idx) => {
+                const radio = label.querySelector('input');
+                radio.checked = (idx === optIndex);
+            });
+            if (!wasSelected) {
+                answeredCount++;
+                updateProgress();
+            }
+        }
+        
+        function submitQuiz() {
+            if (quizSubmitted) return;
+            const btn = document.getElementById('submitBtn');
+            btn.disabled = true;
+            btn.textContent = 'Checking...';
+            let correct = 0;
+            questions.forEach((q, i) => {
+                const selected = document.querySelector(`input[name="q${i}"]:checked`);
+                const explanation = document.getElementById(`explanation${i}`);
+                const labels = document.querySelectorAll(`#options${i} label`);
+                if (selected) {
+                    const answer = parseInt(selected.value);
+                    const isCorrect = (answer === q.correct);
+                    if (isCorrect) correct++;
+                    labels.forEach((label, idx) => {
+                        label.classList.add('disabled');
+                        if (idx === q.correct) label.classList.add('correct');
+                        if (idx === answer && !isCorrect) label.classList.add('wrong');
+                    });
+                    explanation.textContent = q.explanation;
+                    explanation.className = `explanation show ${isCorrect ? 'correct' : 'wrong'}`;
+                } else {
+                    labels.forEach((label, idx) => {
+                        label.classList.add('disabled');
+                        if (idx === q.correct) label.classList.add('correct');
+                    });
+                    explanation.textContent = `Correct answer: ${q.options[q.correct]}`;
+                    explanation.className = 'explanation show wrong';
+                }
+            });
+            const total = questions.length;
+            const percentage = Math.round((correct / total) * 100);
+            document.getElementById('scoreDisplay').innerHTML = `
+                <div class="score">
+                    <h2>Your Score</h2>
+                    <div class="percentage">${correct}/${total}</div>
+                    <p style="font-size: 24px; color: ${percentage >= 70 ? 'var(--safe)' : 'var(--danger)'}">${percentage}%</p>
+                    <p style="margin-top: 10px; opacity: 0.7;">
+                        ${percentage >= 80 ? '🎉 Excellent! You know Wi-Fi security well!' :
+                          percentage >= 60 ? '👍 Good! Keep learning about Wi-Fi security.' :
+                          '📚 Review the lessons and try again!'}
+                    </p>
+                </div>
+            `;
+            quizSubmitted = true;
+            btn.textContent = '✅ Submitted';
+            updateProgress();
+        }
+        
+        window.addEventListener('DOMContentLoaded', function() {
+            renderQuiz();
+        });
+    </script>
+</body>
+</html>

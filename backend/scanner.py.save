@@ -1,0 +1,159 @@
+"""
+Real Wi-Fi Scanner using iwlist (Alternative to nmcli)
+Works on Linux with wireless-tools
+"""
+
+import subprocess
+import json
+import re
+from datetime import datetime
+
+def scan_wifi():
+    """
+    Scan real Wi-Fi networks using iwlist command
+    Returns list of networks with SSID, Security, Signal, and Risk Score
+    """
+    try:
+        # Run iwlist command to scan Wi-Fi
+        result = subprocess.run(
+            ['sudo', 'iwlist', 'wlp2s0', 'scan'],
+            capture_output=True,
+            text=True,
+            timeout=15
+        )
+        
+        if result.returncode != 0:
+            return {'error': 'iwlist command failed. Make sure wireless-tools is installed.'}
+        
+        networks = []
+        current_network = {}
+        
+        lines = result.stdout.split('\n')
+        
+        for line in lines:
+            line = line.strip()
+            
+            # New cell (network) detected
+            if 'Cell' in line and 'Address' in line:
+                if current_network and 'ssid' in current_network:
+                    networks.append(current_network)
+                current_network = {}
+                
+                # Extract BSSID
+                bssid_match = re.search(r'Address: ([0-9A-Fa-f:]+)', line)
+                if bssid_match:
+                    current_network['bssid'] = bssid_match.group(1)
+            
+            # Extract SSID
+            elif 'ESSID:' in line:
+                ssid_match = re.search(r'ESSID:"(.+)"', line)
+                if ssid_match:
+                    current_network['ssid'] = ssid_match.group(1)
+                else:
+                    current_network['ssid'] = 'Hidden Network'
+            
+            # Extract Encryption
+            elif 'Encryption key:' in line:
+                if 'on' in line.lower():
+                    current_network['security'] = 'WPA/WPA2'
+                else:
+                    current_network['security'] = 'None'
+            
+            # Extract Signal/Quality
+            elif 'Quality=' in line:
+                quality_match = re.search(r'Quality=(\d+)/(\d+)', line)
+                if quality_match:
+                    current_network['signal'] = int(quality_match.group(1))
+                else:
+                    current_network['signal'] = 50
+            
+            # Extract WPA/WPA2 details
+            elif 'WPA' in line or 'WPA2' in line:
+                if 'security' in current_network:
+                    if 'WPA' in line:
+                        current_network['security'] = 'WPA2'
+        
+        # Add last network
+        if current_network and 'ssid' in current_network:
+            networks.append(current_network)
+        
+        # Process networks
+        for net in networks:
+            # Set default security if not found
+            if 'security' not in net:
+                net['security'] = 'Unknown'
+            
+            # Calculate risk score
+            net['risk_score'] = calculate_risk(net['ssid'], net['security'], net.get('signal', 50))
+            net['timestamp'] = datetime.now().isoformat()
+        
+        return networks
+    
+    except subprocess.TimeoutExpired:
+        return {'error': 'Scan timed out. Try again.'}
+    except FileNotFoundError:
+        return {'error': 'iwlist not found. Install wireless-tools: sudo apt install wireless-tools'}
+    except Exception as e:
+        return {'error': f'Unexpected error: {str(e)}'}
+
+def calculate_risk(ssid, security, signal):
+    """
+    Calculate risk score from 0-100 based on multiple factors
+    """
+    risk = 0
+    
+    # Factor 1: Open/Unsecured networks
+    if security == 'None' or '--' in security or 'WEP' in security:
+        risk += 35
+    
+    # Factor 2: Suspicious keywords in SSID
+    suspicious_keywords = [
+        'free', 'public', 'guest', 'hotspot', 'freewifi', 
+        'unsecured', 'open', 'anonymous', 'unknown', 'test'
+    ]
+    if any(word in ssid.lower() for word in suspicious_keywords):
+        risk += 25
+    
+    # Factor 3: Very strong signal + suspicious = potential evil twin
+    if signal > 80 and risk > 20:
+        risk += 20
+    
+    # Factor 4: WPA1 or TKIP (older, less secure)
+    if 'WPA1' in security or 'TKIP' in security:
+        risk += 15
+    
+    # Factor 5: Weak security
+    if security == 'WEP':
+        risk += 20
+    
+    # Cap at 100
+    return min(risk, 100)
+
+def get_risk_level(score):
+    """
+    Convert numeric score to risk level with color coding
+    """
+    if score < 20:
+        return {'level': 'Safe', 'color': '#22C55E', 'icon': '🟢', 'class': 'safe'}
+    elif score < 50:
+        return {'level': 'Suspicious', 'color': '#F97316', 'icon': '🟠', 'class': 'suspicious'}
+    elif score < 75:
+        return {'level': 'Risky', 'color': '#EF4444', 'icon': '🔴', 'class': 'risky'}
+    else:
+        return {'level': 'Dangerous', 'color': '#DC2626', 'icon': '⛔', 'class': 'dangerous'}
+
+def get_detailed_analysis(ssid, security, signal, risk_score):
+    """
+    Get detailed breakdown of risk factors
+    """
+    factors = []
+    
+    if security == 'None' or '--' in security:
+        factors.append('⚠️ No encryption (Open network)')
+    elif 'WEP' in security:
+        factors.append('⚠️ WEP encryption (Old/Insecure)')
+    elif 'WPA1' in security or 'TKIP' in security:
+        factors.append('⚠️ Older encryption standard')
+    
+    suspicious = ['free', 'public', 'guest', 'hotspot', 'freewifi', 'unsecured', 'open']
+    if any(word in ssid.lower() for word in suspici

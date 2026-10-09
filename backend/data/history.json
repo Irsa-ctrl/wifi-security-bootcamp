@@ -1,0 +1,5502 @@
+[
+  {
+    "timestamp": "2026-09-15T14:35:10.446622",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:35:10.439163",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:35:10.439182",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:35:10.439188",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:35:10.439194",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:35:10.439200",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:35:10.439206",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:35:40.439023",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:35:40.435098",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:35:40.435116",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:35:40.435122",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:35:40.435128",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:35:40.435134",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:35:40.435140",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:36:10.432428",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:36:10.425174",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:36:10.425192",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:36:10.425198",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:36:10.425204",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:36:10.425210",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:36:10.425215",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:36:40.597867",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:36:40.587041",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:36:40.587069",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:36:40.587076",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:36:40.587083",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:36:40.587090",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:36:40.587096",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:37:10.768215",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:37:10.764070",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:37:10.764088",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:37:10.764094",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:37:10.764100",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:37:10.764106",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:37:10.764111",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:37:40.780810",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:37:40.774197",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:37:40.774217",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:37:40.774223",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:37:40.774229",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:37:40.774235",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:37:40.774240",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:38:10.768124",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:38:10.762713",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:38:10.762732",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:38:10.762738",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:38:10.762744",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:38:10.762750",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:38:10.762756",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:38:40.901791",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:38:40.897018",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:38:40.897039",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:38:40.897046",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:38:40.897052",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:38:40.897058",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:38:40.897064",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:39:11.057026",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:39:11.052875",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:39:11.052897",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:39:11.052905",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:39:11.052912",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:39:11.052920",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:39:11.052927",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:39:41.363874",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:39:41.346551",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:39:41.346574",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:39:41.346580",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:39:41.346586",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:39:41.346592",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:39:41.346598",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:40:11.804811",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:40:11.783557",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:40:11.783582",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:40:11.783589",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:40:11.783594",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:40:11.783601",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:40:11.783606",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:40:41.987193",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:40:41.979436",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:40:41.979458",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:40:41.979464",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:40:41.979470",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:40:41.979476",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:40:41.979482",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:41:12.929319",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:41:12.921904",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:41:12.921924",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:41:12.921930",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:41:12.921936",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:41:12.921942",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:41:12.921947",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:41:42.960540",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:41:42.953929",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:41:42.953955",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:41:42.953963",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:41:42.953971",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:41:42.953979",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:41:42.953987",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:42:12.936978",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:42:12.932709",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:42:12.932730",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:42:12.932736",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:42:12.932741",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:42:12.932747",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:42:12.932753",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:42:43.152305",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:42:43.146046",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:42:43.146065",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:42:43.146071",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:42:43.146077",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:42:43.146083",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:42:43.146089",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:43:13.292554",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:43:13.287180",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:43:13.287200",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:43:13.287206",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:43:13.287212",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:43:13.287218",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:43:13.287223",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:43:43.343814",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:43:43.332365",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:43:43.332386",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:43:43.332392",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:43:43.332398",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:43:43.332404",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:43:43.332410",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:44:13.510409",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:44:13.505988",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:44:13.506008",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:44:13.506014",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:44:13.506020",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:44:13.506025",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:44:13.506031",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:44:43.689284",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:44:43.684040",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:44:43.684061",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:44:43.684067",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:44:43.684073",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:44:43.684079",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:44:43.684085",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-15T14:45:13.923113",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-15T14:45:13.908141",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-15T14:45:13.908160",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-15T14:45:13.908167",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-15T14:45:13.908173",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-15T14:45:13.908179",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-15T14:45:13.908184",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-22T11:34:02.862774",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-22T11:33:57.799540",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-22T11:33:57.799588",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-22T11:33:57.799591",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-22T11:33:57.799594",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-22T11:33:57.799596",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-22T11:33:57.799598",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-22T11:34:29.003696",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-22T11:34:28.914487",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-22T11:34:28.914539",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-22T11:34:28.914552",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-22T11:34:28.914565",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-22T11:34:28.914577",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-22T11:34:28.914590",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-22T11:34:53.965020",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-22T11:34:53.751115",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-22T11:34:53.751140",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-22T11:34:53.751149",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-22T11:34:53.751156",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-22T11:34:53.751164",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-22T11:34:53.751172",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-22T11:35:27.268808",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-22T11:35:27.246520",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-22T11:35:27.246566",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-22T11:35:27.246572",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-22T11:35:27.246578",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-22T11:35:27.246584",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-22T11:35:27.246590",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-22T11:35:50.879311",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-22T11:35:50.840148",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-22T11:35:50.840172",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-22T11:35:50.840180",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-22T11:35:50.840188",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-22T11:35:50.840196",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-22T11:35:50.840204",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-22T11:36:20.011743",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-22T11:36:19.944348",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-22T11:36:19.944373",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-22T11:36:19.944380",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-22T11:36:19.944388",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-22T11:36:19.944396",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-22T11:36:19.944403",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-22T11:37:01.821159",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-22T11:37:01.785867",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-22T11:37:01.785890",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-22T11:37:01.785897",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-22T11:37:01.785903",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-22T11:37:01.785909",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-22T11:37:01.785915",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-22T11:37:24.823661",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-22T11:37:24.803160",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-22T11:37:24.803195",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-22T11:37:24.803205",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-22T11:37:24.803215",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-22T11:37:24.803225",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-22T11:37:24.803235",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-22T11:37:54.164868",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-22T11:37:54.131830",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-22T11:37:54.131850",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-22T11:37:54.131856",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-22T11:37:54.132823",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-22T11:37:54.132837",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-22T11:37:54.132845",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-22T11:38:37.566088",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-22T11:38:37.426480",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-22T11:38:37.426503",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-22T11:38:37.426508",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-22T11:38:37.426514",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-22T11:38:37.426521",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-22T11:38:37.426526",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-22T11:38:54.351295",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-22T11:38:54.347074",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-22T11:38:54.347093",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-22T11:38:54.347095",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-22T11:38:54.347097",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-22T11:38:54.347099",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-22T11:38:54.347101",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-22T11:39:24.639439",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-22T11:39:24.486806",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-22T11:39:24.486827",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-22T11:39:24.486833",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-22T11:39:24.486839",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-22T11:39:24.486845",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-22T11:39:24.486852",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-22T11:39:55.849836",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-09-22T11:39:55.838914",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-09-22T11:39:55.838931",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-09-22T11:39:55.838933",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-09-22T11:39:55.838935",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-09-22T11:39:55.838937",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-09-22T11:39:55.838938",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T10:35:31.170383",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-10-09T10:35:30.882116",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-10-09T10:35:30.882152",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-10-09T10:35:30.882155",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-10-09T10:35:30.882158",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-10-09T10:35:30.882160",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-10-09T10:35:30.882162",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T10:35:32.343320",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-10-09T10:35:32.339012",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-10-09T10:35:32.339030",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-10-09T10:35:32.339037",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-10-09T10:35:32.339043",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-10-09T10:35:32.339049",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-10-09T10:35:32.339056",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T10:36:04.446656",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-10-09T10:36:04.272520",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-10-09T10:36:04.308905",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-10-09T10:36:04.308918",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-10-09T10:36:04.308924",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-10-09T10:36:04.308930",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-10-09T10:36:04.308936",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T10:36:35.280576",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-10-09T10:36:35.138913",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-10-09T10:36:35.218455",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-10-09T10:36:35.218471",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-10-09T10:36:35.218477",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-10-09T10:36:35.218483",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-10-09T10:36:35.218488",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T10:37:07.468059",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-10-09T10:37:07.242415",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-10-09T10:37:07.242437",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-10-09T10:37:07.242443",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-10-09T10:37:07.242450",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-10-09T10:37:07.242456",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-10-09T10:37:07.242462",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T10:37:53.795415",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-10-09T10:37:53.619151",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-10-09T10:37:53.619176",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-10-09T10:37:53.619183",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-10-09T10:37:53.619190",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-10-09T10:37:53.619198",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-10-09T10:37:53.619205",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T10:38:07.066673",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-10-09T10:38:07.060389",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-10-09T10:38:07.060407",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-10-09T10:38:07.060414",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-10-09T10:38:07.060420",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-10-09T10:38:07.060427",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-10-09T10:38:07.060433",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T10:38:46.788110",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-10-09T10:38:46.775862",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-10-09T10:38:46.775878",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-10-09T10:38:46.775880",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-10-09T10:38:46.775882",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-10-09T10:38:46.775884",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-10-09T10:38:46.775885",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T10:39:07.678385",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-10-09T10:39:07.672188",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-10-09T10:39:07.672206",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-10-09T10:39:07.672213",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-10-09T10:39:07.672219",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-10-09T10:39:07.672225",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-10-09T10:39:07.672231",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T10:39:32.267375",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-10-09T10:39:32.060297",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-10-09T10:39:32.060321",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-10-09T10:39:32.060328",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-10-09T10:39:32.060333",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-10-09T10:39:32.060339",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-10-09T10:39:32.060345",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T10:40:01.943428",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-10-09T10:40:01.922065",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-10-09T10:40:01.922086",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-10-09T10:40:01.922093",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-10-09T10:40:01.922100",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-10-09T10:40:01.922106",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-10-09T10:40:01.922113",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T10:40:32.203078",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-10-09T10:40:32.196722",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-10-09T10:40:32.196745",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-10-09T10:40:32.196752",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-10-09T10:40:32.196760",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-10-09T10:40:32.196768",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-10-09T10:40:32.196775",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T10:41:02.211530",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-10-09T10:41:02.199450",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-10-09T10:41:02.199468",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-10-09T10:41:02.199474",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-10-09T10:41:02.199480",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-10-09T10:41:02.199486",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-10-09T10:41:02.199491",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T10:41:32.568116",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-10-09T10:41:32.498106",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-10-09T10:41:32.498128",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-10-09T10:41:32.498134",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-10-09T10:41:32.498140",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-10-09T10:41:32.498147",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-10-09T10:41:32.498152",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T10:42:02.429153",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-10-09T10:42:02.406736",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-10-09T10:42:02.406755",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-10-09T10:42:02.406761",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-10-09T10:42:02.406767",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-10-09T10:42:02.406773",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-10-09T10:42:02.406779",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T10:42:32.214804",
+    "networks": [
+      {
+        "ssid": "Home_WiFi_Secure",
+        "security": "WPA3",
+        "signal": 85,
+        "bssid": "AA:BB:CC:DD:01",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.100",
+        "timestamp": "2026-10-09T10:42:32.210533",
+        "risk_score": 5,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Office_Network",
+        "security": "WPA2",
+        "signal": 78,
+        "bssid": "AA:BB:CC:DD:02",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.101",
+        "timestamp": "2026-10-09T10:42:32.210551",
+        "risk_score": 15,
+        "risk_level": "Safe",
+        "risk_color": "#22C55E",
+        "risk_icon": "\ud83d\udfe2",
+        "risk_class": "safe",
+        "analysis": [
+          "\u2705 No obvious security issues detected"
+        ]
+      },
+      {
+        "ssid": "Starbucks_WiFi",
+        "security": "WPA1 WPA2",
+        "signal": 72,
+        "bssid": "AA:BB:CC:DD:03",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.102",
+        "timestamp": "2026-10-09T10:42:32.210557",
+        "risk_score": 45,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Older encryption standard"
+        ]
+      },
+      {
+        "ssid": "Free_Public_WiFi",
+        "security": "None",
+        "signal": 92,
+        "bssid": "AA:BB:CC:DD:04",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.103",
+        "timestamp": "2026-10-09T10:42:32.210563",
+        "risk_score": 70,
+        "risk_level": "Risky",
+        "risk_color": "#EF4444",
+        "risk_icon": "\ud83d\udd34",
+        "risk_class": "risky",
+        "analysis": [
+          "\u26a0\ufe0f No encryption (Open network)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Free_Public_WiFi\"",
+          "\u26a0\ufe0f Very strong signal + suspicious = Possible Evil Twin"
+        ]
+      },
+      {
+        "ssid": "Airport_Free_Hotspot",
+        "security": "WEP",
+        "signal": 65,
+        "bssid": "AA:BB:CC:DD:05",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.104",
+        "timestamp": "2026-10-09T10:42:32.210569",
+        "risk_score": 85,
+        "risk_level": "Dangerous",
+        "risk_color": "#DC2626",
+        "risk_icon": "\u26d4",
+        "risk_class": "dangerous",
+        "analysis": [
+          "\u26a0\ufe0f WEP encryption (Old/Insecure)",
+          "\u26a0\ufe0f Suspicious SSID name: \"Airport_Free_Hotspot\""
+        ]
+      },
+      {
+        "ssid": "Cafe_Guest_Network",
+        "security": "WPA2",
+        "signal": 55,
+        "bssid": "AA:BB:CC:DD:06",
+        "gateway_ip": "192.168.1.1",
+        "device_ip": "192.168.1.105",
+        "timestamp": "2026-10-09T10:42:32.210574",
+        "risk_score": 30,
+        "risk_level": "Suspicious",
+        "risk_color": "#F97316",
+        "risk_icon": "\ud83d\udfe0",
+        "risk_class": "suspicious",
+        "analysis": [
+          "\u26a0\ufe0f Suspicious SSID name: \"Cafe_Guest_Network\""
+        ]
+      }
+    ]
+  }
+]
