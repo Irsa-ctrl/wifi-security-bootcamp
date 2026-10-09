@@ -1,7 +1,8 @@
 Flask==2.3.2
 Flask-CORS==4.0.0
 reportlab==4.0.4
-pandas==2.0.3
+pandas
+matplotlib
 matplotlib==3.7.2
 gunicorn
 setuptools
