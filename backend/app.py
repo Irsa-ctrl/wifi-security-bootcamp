@@ -7,8 +7,8 @@ from datetime import datetime
 import os
 
 app = Flask(__name__, 
-            static_folder='../frontend',
-            template_folder='../frontend',
+           static_folder='templates',
+    template_folder='templates',
             static_url_path='/')
 CORS(app)
 
