@@ -15,11 +15,11 @@ CORS(app)
 # Serve static files
 @app.route('/style.css')
 def serve_css():
-    return send_from_directory('../frontend', 'style.css')
+    return send_from_directory('templates', 'style.css')
 
 @app.route('/script.js')
 def serve_js():
-    return send_from_directory('../frontend', 'script.js')
+    return send_from_directory('templates', 'script.js')
 
 last_scan = []
 last_scan_time = None
