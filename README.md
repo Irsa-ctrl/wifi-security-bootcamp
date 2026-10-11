@@ -1,3 +1,13 @@
+---
+title: Wi-Fi Security Dashboard
+emoji: 🛡️
+colorFrom: blue
+colorTo: purple
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # 🛡️ Fake Wi-Fi & Hotspot Detection System
 
 A web-based cybersecurity awareness dashboard built with **Python (Flask)** on **Kali Linux** to monitor, detect, and analyze rogue Wi-Fi access points, Evil Twin setups, and unencrypted wireless networks in real time.
