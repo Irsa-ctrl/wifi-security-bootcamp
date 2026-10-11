@@ -1,6 +1,4 @@
 
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "flask",
-  "buildCommand": "pip install -r backend/requirements.txt"
+  "$schema": "https://openapi.vercel.sh/vercel.json"
 }
