@@ -1,25 +1,32 @@
+
+import os
 from flask import Flask, jsonify, render_template, request, send_from_directory
 from flask_cors import CORS
 import scanner
 import analyzer
 import password_generator
 from datetime import datetime
-import os
 
-app = Flask(__name__, 
-            static_folder='../frontend',
-            template_folder='../frontend',
-            static_url_path='/')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+FRONTEND_DIR = os.path.abspath(os.path.join(BASE_DIR, "../frontend"))
+QUIZ_DIR = os.path.abspath(os.path.join(BASE_DIR, "../quiz"))
+
+app = Flask(
+    __name__,
+    static_folder=FRONTEND_DIR,
+    template_folder=FRONTEND_DIR,
+    static_url_path=""
+)
 CORS(app)
 
 # Serve static files
 @app.route('/style.css')
 def serve_css():
-    return send_from_directory('../frontend', 'style.css')
+    return send_from_directory(FRONTEND_DIR, 'style.css')
 
 @app.route('/script.js')
 def serve_js():
-    return send_from_directory('../frontend', 'script.js')
+    return send_from_directory(FRONTEND_DIR, 'script.js')
 
 last_scan = []
 last_scan_time = None
@@ -103,7 +110,7 @@ def check_password():
 
 @app.route('/quiz.html')
 def quiz():
-    return send_from_directory('../quiz', 'quiz.html')
+    return send_from_directory(QUIZ_DIR, 'quiz.html')
 
 if __name__ == '__main__':
     print("🚀 Starting Wi-Fi Security Dashboard...")
